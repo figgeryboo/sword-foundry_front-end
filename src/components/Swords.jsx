@@ -26,7 +26,6 @@ function Swords() {
 	const [swords, setSwords] = useState([]);
 
 	const fetchData = async () => {
-		console.log(API, "api")
 		try {
 			fetch(`${API}/swords`)
 				.then((res) => res.json())
