@@ -94,8 +94,7 @@ function SwordDetails() {
     <div className="sword-details">
       <h1>
         {sword.name}</h1>
-       <h3> {sword.is_cursed ? <h4>💀 THIS BLADE BE CURSED, BEWARE 💀 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-</h4> : null}
+       <h3> {sword.is_cursed ? '💀 THIS BLADE BE CURSED, BEWARE 💀' : null}
       </h3>
       <p>
           Forged in the {sword.maker}'s blazing kiln, the {getRarityText(sword.rarity)} {sword.name} is {sword.is_upgraded ? 'upgraded' : 'not upgraded'} and
