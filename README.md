@@ -12,16 +12,19 @@ Yes. Yes, they do.
 
 #### Deployment
 
-Notes notes notes:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Fork & clone this repository.
+2. CD into /back-end
+3. Run `npm i` to install the dependencies needed.
+4. On main level run `npm run dev` for a localhost port.
+
+
+#### Additional:
+
+[BACK-END for this project can be found linked here.]()
 
 ***
 <br/>
 
-README.md last updated Nov 13
+README.md last updated Nov 15
 
