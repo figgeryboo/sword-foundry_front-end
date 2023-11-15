@@ -1,8 +1,14 @@
+import { Link } from 'react-router-dom';
+
 export default function NavBar() {
 	return (
-		<div className="navbar">
-			<h1>Welcome, Weary Traveler</h1>
-			<button>Need a Sword?</button>
-		</div>
+		<nav className="navbar">
+			<Link to="/swords">
+				<h1>The Sword Foundry</h1>
+			</Link>
+			<button>
+				<Link to="/swords/new">Selling a Sword?</Link>
+			</button>
+		</nav>
 	);
 }

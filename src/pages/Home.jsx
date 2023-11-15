@@ -1,9 +1,13 @@
-import { Link } from 'react-router-dom';
+import forgeImage from "../assets/forgeanimation.gif"
 
-export default function Home() {
+ function Home() {
 	return (
-		<>
-			<h1>Welcome to The Sword Foundry</h1>
-		</>
+		<div>
+		<br />
+			<img src={forgeImage} alt={"Blacksmith hammering"} />
+			<h3 className="homeMessage">Welcome weary traveler and rest your bones by the fire.</h3>
+		</div>
 	);
 }
+
+export default Home;
