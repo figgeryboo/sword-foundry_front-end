@@ -1,9 +1,10 @@
-import Footer from "../components/Footer";
 import SwordEditForm from "../components/SwordEditForm";
+import Footer from "../components/Footer";
+
 
 function Edit() {
   return (
-    <div className="New Edit">
+    <div className="Edit">
       <SwordEditForm />
       <Footer />
     </div>

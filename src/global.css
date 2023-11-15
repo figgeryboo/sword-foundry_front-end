@@ -20,7 +20,6 @@ body {
 	color: #e2804b;
 	margin-bottom: 50px;
 }
-/* Add this CSS to your existing styles */
 
 .swords-container {
 	width: 70%;
@@ -45,8 +44,8 @@ body {
 }
 
 .sword-card {
-	width: 25%; /* Adjust width to fit three cards in a row */
-	margin: 10px; /* Add margin for spacing between cards */
+	width: 25%; 
+	margin: 10px; 
 	padding: 15px;
 	background: rgba(94, 40, 40, 0.3);
 	border-radius: 8px;

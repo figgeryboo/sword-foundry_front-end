@@ -5,7 +5,7 @@ function Show() {
   return (
     <div className="Show">
       <SwordDetails />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
