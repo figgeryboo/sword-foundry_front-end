@@ -36,6 +36,7 @@ function SwordDetails() {
   });
   const [background, setBackground] = useState('');
   let navigate = useNavigate();
+  let { id } = useParams();
 
   useEffect(() => {
     const fetchSword = async () => {
