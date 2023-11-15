@@ -18,6 +18,8 @@ Yes. Yes, they do.
 3. Run `npm i` to install the dependencies needed.
 4. On main level run `npm run dev` for a localhost port.
 
+[LIVE DEPLOY for this project can be found linked here.](https://sword-foundry.netlify.app/)
+
 
 #### Additional:
 
